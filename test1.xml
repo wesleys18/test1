@@ -37,5 +37,6 @@
       </block>
     </next>
   </block>
+  <block type="movement_stutter" id="498" x="-495" y="142"></block>
   <block type="movement_reverse" id="463" x="-358" y="293"></block>
 </xml>
