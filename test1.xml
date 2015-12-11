@@ -1,5 +1,4 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_reverse" id="463" x="-318" y="21"></block>
   <block type="movement_forward" id="1" x="5" y="5">
     <next>
       <block type="controls_if" id="299" inline="false">
@@ -31,6 +30,9 @@
                 <statement name="DO0">
                   <block type="movement_forward" id="475"></block>
                 </statement>
+                <next>
+                  <block type="movement_reverse" id="463"></block>
+                </next>
               </block>
             </next>
           </block>
