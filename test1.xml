@@ -30,6 +30,9 @@
                 <statement name="DO0">
                   <block type="movement_forward" id="475"></block>
                 </statement>
+                <next>
+                  <block type="movement_stop" id="518"></block>
+                </next>
               </block>
             </next>
           </block>
