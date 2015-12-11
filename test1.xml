@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="1" x="5" y="5">
+  <block type="movement_forward" id="1" x="-226" y="-14">
     <next>
       <block type="controls_if" id="299" inline="false">
         <value name="IF0">
@@ -38,5 +38,4 @@
     </next>
   </block>
   <block type="movement_stutter" id="498" x="-495" y="142"></block>
-  <block type="movement_reverse" id="463" x="-358" y="293"></block>
 </xml>
