@@ -30,9 +30,6 @@
                 <statement name="DO0">
                   <block type="movement_forward" id="475"></block>
                 </statement>
-                <next>
-                  <block type="movement_reverse" id="463"></block>
-                </next>
               </block>
             </next>
           </block>
@@ -40,4 +37,5 @@
       </block>
     </next>
   </block>
+  <block type="movement_reverse" id="463" x="-358" y="293"></block>
 </xml>
