@@ -1,42 +1,42 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="1" x="-246" y="-61">
     <next>
-      <block type="controls_whileUntil" id="596" inline="false">
+      <block type="controls_whileUntil" id="2" inline="false">
         <field name="MODE">UNTIL</field>
         <value name="NUMBER">
-          <block type="sensor_button" id="666">
+          <block type="sensor_button" id="3">
             <field name="OBJECT">UP</field>
           </block>
         </value>
         <statement name="DO">
-          <block type="controls_if" id="299" inline="false">
+          <block type="controls_if" id="4" inline="false">
             <value name="IF0">
-              <block type="sensor_object" id="307">
+              <block type="sensor_object" id="5">
                 <field name="OBJECT">LEFTFRONT</field>
               </block>
             </value>
             <statement name="DO0">
-              <block type="movement_right" id="425"></block>
+              <block type="movement_right" id="6"></block>
             </statement>
             <next>
-              <block type="controls_if" id="375" inline="false">
+              <block type="controls_if" id="7" inline="false">
                 <value name="IF0">
-                  <block type="sensor_object" id="391">
+                  <block type="sensor_object" id="8">
                     <field name="OBJECT">RIGHTFRONT</field>
                   </block>
                 </value>
                 <statement name="DO0">
-                  <block type="movement_left" id="401"></block>
+                  <block type="movement_left" id="9"></block>
                 </statement>
                 <next>
-                  <block type="controls_if" id="444" inline="false">
+                  <block type="controls_if" id="10" inline="false">
                     <value name="IF0">
-                      <block type="sensor_object" id="451">
+                      <block type="sensor_object" id="11">
                         <field name="OBJECT">REAR</field>
                       </block>
                     </value>
                     <statement name="DO0">
-                      <block type="movement_forward" id="475"></block>
+                      <block type="movement_forward" id="12"></block>
                     </statement>
                   </block>
                 </next>
@@ -47,5 +47,5 @@
       </block>
     </next>
   </block>
-  <block type="movement_stutter" id="498" x="-495" y="142"></block>
+  <block type="movement_stutter" id="13" x="-495" y="142"></block>
 </xml>
